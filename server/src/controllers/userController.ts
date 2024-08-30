@@ -5,7 +5,7 @@ import User from '../models/user';
 import createHttpError from 'http-errors';
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
-import { SessionData } from 'express-session';
+
 
 export const getAuthenticatedUser: RequestHandler = async (req, res, next) => {
     const authenticateUser = req.session.userId;
