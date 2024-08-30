@@ -7,7 +7,7 @@ const port = env.PORT;
 mongoose.connect(env.MONGO_CONNECTION_STRING)
   .then(() => {
     console.log("Connected to MongoDB");
-    app.listen(port, () => {
+    app.listen(port, '0.0.0.0', () => {
       console.log(`Server started on http://localhost:${port}`);
     });
   })
