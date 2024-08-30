@@ -1,0 +1,28 @@
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px;
+
+}
+
+.book-page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e1f5f2;
+    border-radius: 8px;
+    font-family: poppins;
+}
+.book-page h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.book-card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(37, 221, 206, 0.1);
+}
+

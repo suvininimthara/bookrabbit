@@ -1,0 +1,153 @@
+/* Header.css */
+.header {
+  position: fixed; /* Fixed positioning */
+  width: 100%; /* Full width */
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 60px;
+  z-index: 1000;
+  font-family: poppins;
+ 
+}
+
+.navbar-custom {
+    background-color: #1bb39e; /* Teal background */
+    width: 100%;
+    font-size: medium;
+    position: fixed;
+    top:0;
+    margin-bottom: 100px;
+    z-index: 1000;
+    
+}
+
+
+.navbar-brand-custom {
+  color: white;
+  font-weight: bold;
+  margin-right: 40px;
+
+}
+
+.nav-link-custom {
+  color: white !important;
+  margin-right: 10px;
+  
+}
+
+.navbar-custom .form-control {
+  margin-right: 10px;
+}
+.navbar-custom .btn-outline-teal {
+  color: white;
+  border-color: white;
+  
+}
+
+.navbar-custom .btn-outline-teal:hover {
+  background-color: white;
+  color: #1bb39e;
+}
+
+.navbar-custom .btn-outline-light {
+  color: white;
+  border-color: white;
+  width: 100px;
+  
+}
+
+.navbar-custom .btn-outline-light:hover {
+  background-color: white;
+  color: #1bb39e;
+}
+.navbar-custom .btn-light {
+  color: #1bb39e;
+  border-color: white;
+  width: 100px;
+}
+
+.navbar-custom .btn-light:hover {
+  background-color: #1bb39e;
+  color: white;
+}
+
+.btn {
+  background-color: #1bb39e;
+  border: 1px solid white;
+  color: white;
+  
+}
+.btn:hover {
+  background-color: white;
+  color: #1bb39e;
+  border: 1px solid #1bb39e;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #1bb39e;
+}
+.btn-outline:hover {
+  background-color: #1bb39e;
+  color: white;
+  border:1px solid white;
+}
+.profile-icon {
+  color: white;
+  font-size: 24px;
+}
+
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.search-input {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.search-icon-button {
+  border-radius: 0 0.375rem 0.375rem 0;
+  background-color: white;
+  border: white;
+}
+.search-icon {
+  font-size: large;
+  color: #1bb39e;
+  background-color: aliceblue;
+  }
+
+
+  .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.modal-content {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.modal-title img {
+  height: 40px; /* Adjust as needed */
+  margin-right: 10px;
+}

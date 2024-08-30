@@ -1,0 +1,17 @@
+.display-4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.notfound {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1bb39e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

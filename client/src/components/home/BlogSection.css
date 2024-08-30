@@ -1,0 +1,20 @@
+.blogs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.blog-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    
+}
+.blog-card .btn-primary {
+    background-color: #1bb39e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}

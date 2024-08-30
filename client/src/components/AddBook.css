@@ -1,0 +1,74 @@
+.add-book-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(37, 221, 206, 0.1);
+}
+
+.add-book-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-book-form form > div {
+    margin-bottom: 15px;
+}
+
+.add-book-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.add-book-form input,
+.add-book-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #d7fffc;
+    border-radius: 4px;
+}
+
+.add-book-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1bb39e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-book-form button:hover {
+    background-color: #1bb39e;
+}
+.add-book-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #e1f5f2;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #bdf7ef;
+    color: #1bb39e;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

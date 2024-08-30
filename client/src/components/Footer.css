@@ -1,0 +1,59 @@
+.footer {
+  background-color: #264653;
+  font-family: Poppins;
+  color: #c9dbdb;
+  font-size: small;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer h6 {
+  color: #edf1f1;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  font-size: small;
+}
+.input-group {
+  margin-bottom: 1rem;
+  
+}
+.footer .btn-teal {
+  background-color: #1bb39e ;
+  color: #fff;
+  font-size: small;
+}
+
+.footer .btn-teal:hover {
+  background-color: #005f5f;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: small;
+}
+
+.footer hr {
+  border-top: 1px solid #c9dbdb;
+  margin-top: 10px;
+}
+
+.footer .social-media-icons a {
+  font-size: 1.5rem;
+
+}
+
+.footer .social-media-icons a:hover {
+  color: teal;
+}
+

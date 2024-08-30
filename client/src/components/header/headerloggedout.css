@@ -1,0 +1,22 @@
+.header-logged-out-view .btn{
+    background-color: #1bb39e;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    
+  }
+  .btn:hover {
+    background-color: white;
+    color: #1bb39e;
+    border: 1px solid #1bb39e;
+  }
+  
+  .btn-outline {
+    background-color: white;
+    color: #1bb39e;
+  }
+  .btn-outline:hover {
+    background-color: #1bb39e;
+    color: white;
+    border:1px solid white;
+  }

@@ -1,0 +1,271 @@
+/* BookList Component CSS */
+.book-list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.book-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book-info {
+  padding: 10px;
+}
+
+.book-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.book-authors {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.book-actions a {
+  text-decoration: none;
+  color: teal;
+}
+
+.book-actions button {
+  padding: 5px 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-actions button:hover {
+  background-color: darkcyan;
+}
+
+/* Book Page Styling */
+.book-page {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e1f5f2;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.book-page h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+/* Book Card Styling */
+.book-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px;
+}
+
+.book-card {
+  flex: 1 1 calc(20% - 16px); /* 5 cards per row */
+  max-width: calc(20% - 16px);
+  min-width: 180px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+  width: 130px;
+  height: 200px;
+  object-fit: fill;
+  margin-top: 5px;
+}
+
+.book-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.book-author {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.book-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.book-rating .fa-star {
+  margin-right: 2px; /* Adjust the value as needed for spacing */
+}
+
+.book-rating span {
+  margin-left: 4px;
+  color: #888;
+}
+
+/* Wishlist Icon Styling */
+.wishlist-icon {
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #888;
+}
+
+.wishlist-icon.red {
+  color: #1bb39e;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1200px) {
+  .book-card {
+      flex: 1 1 calc(25% - 16px); /* 4 cards per row */
+  }
+}
+
+@media (max-width: 992px) {
+  .book-card {
+      flex: 1 1 calc(33.33% - 16px); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .book-card {
+      flex: 1 1 calc(50% - 16px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .book-card {
+      flex: 1 1 calc(100% - 16px); /* 1 card per row */
+  }
+}
+
+/* Book Detail Styling */
+.book-detail {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e1f5f2;
+  border-radius: 8px;
+}
+
+.book-detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.book-detail-image {
+  margin-bottom: 20px;
+}
+
+.book-detail-image-img {
+  width: 130px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.book-detail-text {
+  width: 100%;
+}
+
+.book-detail-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.book-detail-text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.book-detail-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.read-button {
+  padding: 10px 20px;
+  background-color: #1bb39e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.read-button:hover {
+  background-color: #17a589;
+}
+
+.heart-symbol {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.heart-symbol.heart-red {
+  color: #ff6b6b;
+}
+
+.heart-symbol.heart-yellow {
+  color: #ffca28;
+}
+
+.back-to-list {
+  padding: 10px 20px;
+  background-color: #1bb39e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.back-to-list:hover {
+  background-color: #17a589;
+}

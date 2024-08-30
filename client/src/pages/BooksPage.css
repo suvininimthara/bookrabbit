@@ -1,0 +1,102 @@
+/* General Layout */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #1bb39e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: darkcyan;
+  }
+  
+  /* Genre Buttons */
+  .genre-select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .genre-select button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #1bb39e;
+    border-radius: 5px;
+    background-color: white;
+    color: #1bb39e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .genre-select button.active-genre {
+    background-color: #1bb39e;
+    color: white;
+  }
+  
+  .genre-select button:hover:not(.active-genre) {
+    background-color: #f0f0f0;
+  }
+  
+  /* Wishlist Button */
+  .wishlist-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1bb39e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .wishlist-button:hover {
+    background-color: darkcyan;
+  }
+  
+  /* Wishlist Title */
+  .wishlist-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
